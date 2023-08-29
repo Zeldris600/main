@@ -1,0 +1,11 @@
+User Authentication module: Verify if Someone trying to access an endpoint or resource in this API is actually who they claim to be.
+
+1- For the first use case;
+    -  A user will be authenticated using his/her usernames and password.
+
+    -  Thereafter, the server(This Api) will issue a bearer token("a string representing an access
+    authorization issued to the client") in an auth header to prove authentication in subsequent req.
+
+    -  We will Issue a JWT to the user after authentication.
+    
+Using Passport strategies for authenticating users in this module. 
